@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="segmentTextSize" format="dimension"></attr>
+    <attr name="segmentPadding" format="dimension"></attr>
+    <attr name="segmentTextColor" format="color"></attr>
+    <attr name="segmentTextHighLightColor" format="color"></attr>
+    <attr name="segmentHighLightBackgroundColor" format="color"></attr>
+
+    <declare-styleable name="SegmentedPagerLayoutStyle">
+        <attr name="segmentTextSize"></attr>
+        <attr name="segmentPadding"></attr>
+        <attr name="segmentTextColor"></attr>
+        <attr name="segmentTextHighLightColor"></attr>
+        <attr name="segmentHighLightBackgroundColor"></attr>
+    </declare-styleable>
+
+</resources>

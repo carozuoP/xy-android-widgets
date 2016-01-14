@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xiaoooyu/cxy/android-viewpager/app/build/intermediates/exploded-aar/android-viewpager/widgets/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="074d0ffac96b9e68cbfdecde5029f5dc9e47215f">
+        <dex dex="/Users/xiaoooyu/cxy/android-viewpager/app/build/intermediates/pre-dexed/debug/android-viewpager-widgets-unspecified_2fe44547d9619d3a7d379fcaa2372bf7a2843263.jar" />
+    </item>
+
+</items>
