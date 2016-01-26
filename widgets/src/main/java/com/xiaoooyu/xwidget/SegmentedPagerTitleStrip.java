@@ -1,4 +1,4 @@
-package com.xiaoooyu.widgets;
+package com.xiaoooyu.xwidget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -157,7 +157,7 @@ public class SegmentedPagerTitleStrip extends LinearLayout {
 //                    separatorTop + dividerHeightPx, mDividerPaint);
 //        }
 
-//        drawBorder(canvas, getWidth(), height);
+        drawBorder(canvas, getWidth(), height);
     }
 
     private void drawBorder(Canvas canvas, int width, int height) {

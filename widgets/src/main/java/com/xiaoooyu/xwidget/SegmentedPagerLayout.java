@@ -1,4 +1,4 @@
-package com.xiaoooyu.widgets;
+package com.xiaoooyu.xwidget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,8 +13,6 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.xiaoooyu.segmentviewpagertitle.R;
 
 /**
  *

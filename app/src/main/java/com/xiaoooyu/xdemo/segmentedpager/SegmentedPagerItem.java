@@ -1,4 +1,4 @@
-package com.xiaoooyu.xwidget.demo.segmentedpager;
+package com.xiaoooyu.xdemo.segmentedpager;
 
 import android.support.v4.app.Fragment;
 

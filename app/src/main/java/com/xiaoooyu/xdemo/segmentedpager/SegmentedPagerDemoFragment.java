@@ -1,4 +1,4 @@
-package com.xiaoooyu.xwidget.demo.segmentedpager;
+package com.xiaoooyu.xdemo.segmentedpager;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.xiaoooyu.widgets.SegmentedPagerLayout;
-import com.xiaoooyu.xwidget.R;
+import com.xiaoooyu.xwidget.SegmentedPagerLayout;
+import com.xiaoooyu.xdemo.R;
 
 import java.util.ArrayList;
 
@@ -30,7 +30,7 @@ public class SegmentedPagerDemoFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        return inflater.inflate(R.layout.segmented_pager_demo_fragment, container, false);
     }
 
     @Override

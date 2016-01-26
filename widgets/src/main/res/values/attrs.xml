@@ -14,4 +14,10 @@
         <attr name="segmentHighLightBackgroundColor"></attr>
     </declare-styleable>
 
+    <declare-styleable name="PizzaView.Styleable">
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="stroke_color" format="color"/>
+        <attr name="num_wedges" format="integer"/>
+    </declare-styleable>
+
 </resources>

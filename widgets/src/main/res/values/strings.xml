@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">SegmentViewPagerTitle</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
 </resources>

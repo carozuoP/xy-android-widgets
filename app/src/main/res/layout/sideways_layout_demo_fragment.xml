@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaoooyu.xwidget.SidewaysLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#f0f12b"
+        android:background="#3ba249"
+        android:text="good night moon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:textColor="#fff"
+        android:background="#f4783a"
+        android:textStyle="bold"
+        android:text="green eggs and ham" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="30dp"
+        android:textColor="#490000"
+        android:background="#fdffef"
+        android:text="matilda" />
+</com.xiaoooyu.xwidget.SidewaysLayout>

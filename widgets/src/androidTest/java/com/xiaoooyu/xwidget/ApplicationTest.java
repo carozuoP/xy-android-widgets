@@ -1,4 +1,4 @@
-package com.xiaoooyu.widgets;
+package com.xiaoooyu.xwidget;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

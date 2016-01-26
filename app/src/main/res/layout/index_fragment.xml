@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button android:id="@+id/index_fragment_demo_segmented"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segmented Pager" />
+    <Button android:id="@+id/index_fragment_demo_date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date TextView" />
+    <Button android:id="@+id/index_fragment_demo_lengthpicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length Picker" />
+    <Button android:id="@+id/index_fragment_demo_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom View"/>
+    <Button android:id="@+id/index_fragment_demo_photo_spiral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photo Spiral"/>
+    <Button android:id="@+id/index_fragment_demo_sideways_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sideways Layout"/>
+</LinearLayout>
