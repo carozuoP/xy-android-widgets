@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'findbugs'
 
 task analysis(type: FindBugs) {
-    ignoreFailures = false
+    ignoreFailures = true
     effort = "max"
     reportLevel = "low"
     classes = files("$project.buildDir/intermediates/classes")
@@ -14,7 +14,7 @@ task analysis(type: FindBugs) {
     reports {
         xml.enabled = true
         xml.withMessages = true
-        html.enabled = true
+        html.enabled = false
         xml.destination "$project.buildDir/outputs/findbugs/findbugs-output.xml"
         html.destination "$project.buildDir/outputs/findbugs/findbugs-output.html"
     }
