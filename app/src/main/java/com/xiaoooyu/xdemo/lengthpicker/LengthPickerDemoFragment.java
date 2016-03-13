@@ -18,8 +18,8 @@ import com.xiaoooyu.xdemo.R;
  */
 public class LengthPickerDemoFragment extends Fragment implements View.OnClickListener {
 
-    private LengthPicker mWidthPicker;
-    private LengthPicker mHeightPicker;
+    private LengthPicker mWidthPicker = null;
+    private LengthPicker mHeightPicker = null;
     private TextView mAreaTextView;
     private Button mComputeButton;
 
@@ -42,6 +42,9 @@ public class LengthPickerDemoFragment extends Fragment implements View.OnClickLi
     }
 
     public void updateArea(View v) {
+        if (mWidthPicker == null || mHeightPicker == null)
+            return;
+
         int area = mWidthPicker.getNumInches() * mHeightPicker.getNumInches();
         mAreaTextView.setText(getString(R.string.area_format, area));
     }
