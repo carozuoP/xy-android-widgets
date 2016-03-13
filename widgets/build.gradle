@@ -1,4 +1,24 @@
 apply plugin: 'com.android.library'
+apply plugin: 'findbugs'
+
+task analysis(type: FindBugs) {
+    ignoreFailures = false
+    effort = "max"
+    reportLevel = "low"
+    classes = files("$project.buildDir/intermediates/classes")
+    //Use this only if you want exclude some errors
+    excludeFilter = file("$rootProject.rootDir/findbugs-exclude-filter.xml")
+
+    source = fileTree('src/main/java/')
+    classpath = files()
+    reports {
+        xml.enabled = false
+        xml.withMessages = true
+        html.enabled = true
+        xml.destination "$project.buildDir/outputs/findbugs/findbugs-output.xml"
+        html.destination "$project.buildDir/outputs/findbugs/findbugs-output.html"
+    }
+}
 
 android {
     compileSdkVersion 23

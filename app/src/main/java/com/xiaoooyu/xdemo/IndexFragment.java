@@ -79,6 +79,7 @@ public class IndexFragment extends Fragment
                 break;
             case R.id.index_fragment_demo_sideways_layout:
                 openSidewaysLayoutDemo();
+                break;
             default:
                 break;
         }
