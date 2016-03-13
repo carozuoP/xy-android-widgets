@@ -42,7 +42,7 @@ public class LengthPickerDemoFragment extends Fragment implements View.OnClickLi
     }
 
     public void updateArea(View v) {
-        if (mWidthPicker == null || mHeightPicker == null)
+        if (mWidthPicker == null || mHeightPicker == null || mAreaTextView == null)
             return;
 
         int area = mWidthPicker.getNumInches() * mHeightPicker.getNumInches();
